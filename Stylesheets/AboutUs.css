@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-section-1 p{
+   width: 83%;
+   text-align: justify!important;
+}
 .About-hero-img{
     background-image: url("../images/about-hero.jpg");
     height: 68vh;
@@ -7,7 +17,6 @@
 }
 .About-1-img{
     background-image: url("../images/about-1.jpg");
-    height: 88vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +25,7 @@
 .ab-section{
     margin-bottom: 100px;
 }
+
 .about-section-4{
     background-color: #F8F8F8;
 }
@@ -39,14 +49,16 @@
     font-weight: 800;
 }
 #about-body h4{
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 800;
 }
 #about-body .title-02{
     font-size: 24px;
+    font-weight: 700;
 }
 #about-body .title-01{
     font-size: 32px;
+    font-weight: 700;
 }
 .about-btn-1{
     background: #FF6433!important;
@@ -69,7 +81,7 @@
     margin: 10px 0px 12px 32px;
 }
 .about-gradient-bg{
-    height: 64vh;
+    
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,6 +158,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.custom-rounded-prime {
+    border-radius: 14px!important;
+}
+.about-section-5{
+    margin-bottom: 100px;
+}
 /* .about-gradient-words{
     top: 20%;
     right: 50%;
@@ -163,7 +181,7 @@
 
     }
     #about-body h2{
-        font-size: 40px;
+        font-size: 32px;
     }
     .about-team-1, .about-team-2,.about-team-3,.about-team-4,.about-team-5,.about-team-6{
         background-position: 45%,10%;
@@ -176,5 +194,24 @@
     #about-body h4{
         font-size: calc(1.275rem + .3vw);
 
+    }
+}
+@media(max-width: 320px){
+    .about-bg-1{
+        height: 60vh;
+    }
+    .about-bg-2{
+        height: 60vh;
+    }
+    .about-bg-3{
+        height: 60vh;
+    }
+}
+@media(width:2560px){
+    .about-team-1, .about-team-2,.about-team-3,.about-team-4,.about-team-5,.about-team-6{
+        background-position: 45%,10%;
+    }
+    .About-hero-img{
+        height: 40vh;
     }
 }
